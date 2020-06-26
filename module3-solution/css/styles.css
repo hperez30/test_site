@@ -1,14 +1,14 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #ffffff;
   font-family: 'Oxygen', sans-serif;
   text-align: center;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #8a8889;
   border-radius: 0;
   border: 0;
   min-height: 60px;
@@ -27,7 +27,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #000000;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -64,7 +64,7 @@ body {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
-    margin: 5px 5px 5px 0;
+    margin: 5px 5px 5px 5px;
   }
   /* End Header */
 
@@ -72,6 +72,17 @@ body {
   .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
+  }
+
+  .col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   /* End Home Page */
 }
@@ -83,6 +94,18 @@ body {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
+
+  .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
   /* End Home Page */
 }
 
@@ -164,6 +187,18 @@ body {
   .menu-item-description {
     text-align: center;;
   }
+
+  .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
 }
 
 
@@ -189,6 +224,8 @@ body {
     padding-left: 15px;
     float: left;
     width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -198,5 +235,24 @@ div.mimarco {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  color:#000000;
+}
+
+#our-menu{
+  font-size: 24px;
+  color:#000000;
+}
+
+#my-footer{
+  color:#000000;
+}
+
+.title{
+  font-size: 20px;
+  color:#000000;
+}
+
+.mitexto{
+  text-align: left;
 }

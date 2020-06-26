@@ -191,3 +191,12 @@ body {
     width: 100%;
   }
 }
+
+div.mimarco {
+  border: 1px solid black;
+  background-color: #8a8889;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  margin-bottom: 10px;
+}

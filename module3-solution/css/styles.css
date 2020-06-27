@@ -6,19 +6,42 @@ body {
   text-align: center;
 }
 
+.mimarco {
+  border: 1px solid black;
+  background-color: #8a8889;
+  font-family: Helvetica;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+p.mitexto{
+  text-align: left;
+}
+
+#our-menu{
+  font-size: 24px;
+  color:#000000;
+}
+
+#my-footer{
+  color:#000000;
+}
+
+.title{
+  font-size: 20px;
+  color:#000000;
+}
+
+.main{
+  margin:10px;
+}
+
 /** HEADER **/
 #header-nav {
   background-color: #8a8889;
   border-radius: 0;
   border: 0;
   min-height: 60px;
-}
-
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
@@ -49,40 +72,18 @@ body {
   vertical-align: middle;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
-  }
-}
-
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 5px;
-  }
-  /* End Header */
+@media (min-width: 992px) {
 
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
+  .container {
   }
 
   .col-md-12 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
+
     width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
   }
   /* End Home Page */
 }
@@ -90,20 +91,15 @@ body {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
+  .container {
+    margin-top: 20px;
   }
 
   .col-sm-12 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
     float: left;
     width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
   }
 
   /* End Home Page */
@@ -130,6 +126,7 @@ body {
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
+    background-color: #ffffff;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
@@ -169,34 +166,14 @@ body {
   /* End Footer */
 
   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
+  .container {
+    margin-top: 20px;
   }
 
   .col-xs-12 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
     width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
   }
 
 }
@@ -211,48 +188,13 @@ body {
   }
   /* End Header */
   
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
+  /* Home Page */
+  .container {
+    margin-top: 20px;
   }
 }
 
-div.mimarco {
-  border: 1px solid black;
-  background-color: #8a8889;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  margin-bottom: 20px;
-  color:#000000;
-}
 
-#our-menu{
-  font-size: 24px;
-  color:#000000;
-}
 
-#my-footer{
-  color:#000000;
-}
 
-.title{
-  font-size: 20px;
-  color:#000000;
-}
 
-.mitexto{
-  text-align: left;
-}
